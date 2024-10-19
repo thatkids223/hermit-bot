@@ -17,7 +17,7 @@ const DEBUG = convertToBool(process.env.DEBUG, 'true');
 module.exports = {
   VERSION: 'v4.4.4',
   SESSION_ID: process.env.SESSION_ID || 'HP_2024_OCT_19_5QKOC5',
-  MODE: (process.env.MODE || 'private').toLowerCase(),
+  MODE: (process.env.MODE || 'public').toLowerCase(),
   HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
   SEND_READ: toBool(process.env.READ_COMMAND),
   READ_MSG: toBool(process.env.READ_MSG),
@@ -29,7 +29,7 @@ module.exports = {
   AUTOMUTE_MSG: process.env.AUTOMUTE_MSG || '_Group automuted!_\n_(Change this by setting var AUTOMUTE_MSG)_',
   AUTOUNMUTE_MSG: process.env.AUTOUNMUTE_MSG || '_Group autounmuted!_\n_(Change this by setting var AUTOUNMUTE_MSG)_',
   ANTILINK_MSG: process.env.ANTILINK_MSG || '_Link Not Allowed!_\n_(Change this by setting var ANTILINK_MSG)_',
-  BOT_INFO: process.env.BOT_INFO || 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;22395064497;https://i.imgur.com/6oRG106.jpeg',
+  BOT_INFO: process.env.BOT_INFO || 'ʜᴇʀᴍɪᴛ;ᴛʜᴀᴛᴋɪᴅ•;22395064497;https://iili.io/22kpOMv.jpg',
   AUDIO_DATA: process.env.AUDIO_DATA || 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;https://i.imgur.com/fj2WE83.jpeg',
   STICKER_DATA: process.env.STICKER_DATA || 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ',
   ERROR_MESSAGE: toBool(process.env.ERROR_MESSAGE, 'true'),
