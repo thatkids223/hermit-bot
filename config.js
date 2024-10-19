@@ -46,7 +46,7 @@ module.exports = {
   AUTH_FILE: process.env.AUTH_FILE || false,
   START_MSG: toBool(process.env.START_MSG || 'true'),
   DATABASE_URL: DATABASE_URL,
-  DATABASE: DATABASE_URL === './database.db' 
+  DATABASE: DATABASE_URL === 'postgresql://sucubemalien_user:Xz75DuUX2BgrSoJCJaisH4qHaPssKT2g@dpg-cs0rq8rtq21c73eing3g-a.oregon-postgres.render.com/sucubemalien' 
     ? new Sequelize({
         dialect: 'sqlite',
         storage: DATABASE_URL,
