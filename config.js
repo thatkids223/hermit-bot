@@ -30,7 +30,7 @@ module.exports = {
   AUTOUNMUTE_MSG: process.env.AUTOUNMUTE_MSG || '_Group autounmuted!_\n_(Change this by setting var AUTOUNMUTE_MSG)_',
   ANTILINK_MSG: process.env.ANTILINK_MSG || '_Link Not Allowed!_\n_(Change this by setting var ANTILINK_MSG)_',
   BOT_INFO: process.env.BOT_INFO || 'ʜᴇʀᴍɪᴛ;ᴛʜᴀᴛᴋɪᴅ•;22395064497;https://iili.io/22kpOMv.jpg',
-  AUDIO_DATA: process.env.AUDIO_DATA || 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;https://i.imgur.com/fj2WE83.jpeg',
+  AUDIO_DATA: process.env.AUDIO_DATA || 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;https://iili.io/22kpOMv.jpg',
   STICKER_DATA: process.env.STICKER_DATA || 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ',
   ERROR_MESSAGE: toBool(process.env.ERROR_MESSAGE, 'true'),
   SONG_THUMBNAIL: toBool(process.env.SONG_THUMBNAIL),
